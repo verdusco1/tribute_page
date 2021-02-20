@@ -1,0 +1,23 @@
+#title {
+    text-align: center;
+  }
+  #img-div {
+    background-color:red;
+    max-width: 400px;
+  }
+
+  #image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  #main {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #main > * {
+    width: 40%
+  }
